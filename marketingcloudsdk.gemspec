@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'marketingcloudsdk/version'
 
 Gem::Specification.new do |spec|
-	spec.name          = "sfmc-fuelsdk-ruby"
+	spec.name          = "marketingcloudsdk"
 	spec.version       = MarketingCloudSDK::VERSION
 	spec.authors       = ["Salesforce"]
 	spec.email         = ["mcsdkadmin@salesforce.com"]
